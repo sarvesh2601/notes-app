@@ -1,4 +1,4 @@
-//UTILITYL: YARGS TO MAKE THE APP INTERACTIVE
+
 const yargs = require('yargs');
 const fs = require('fs');
 const notesUtility = require('./notes');
