@@ -1,5 +1,4 @@
 //UTILITYL: YARGS TO MAKE THE APP INTERACTIVE
-//FILTER METHOD RETURS YOU THE ARRAY WHICH STAIESFIES THE CRITERIONS SET BY YOU
 const yargs = require('yargs');
 const fs = require('fs');
 const notesUtility = require('./notes');
