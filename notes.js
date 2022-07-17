@@ -7,8 +7,8 @@ const getnotes = () => "Your Notes";
 const addNote = (title, body) => {
     const notes = loadNotes();
     //const duplicate = notes.filter((note)=> note.TITLE === title)
-    const duplicateO = notes.find((note) => note.TITLE === title); // find return value of the element (first) which satisfies the criteria
-    if(!duplicate0){
+    const duplicate = notes.find((note) => note.TITLE === title); // find return value of the element (first) which satisfies the criteria
+    if(!duplicate){
         notes.push({
             TITLE: title,
             BODY: body
